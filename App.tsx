@@ -8,7 +8,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PointProvider } from './component/PointContext';
 
 
-// Configure handler supaya notif tampil saat app foreground
+
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldPlaySound: true,
