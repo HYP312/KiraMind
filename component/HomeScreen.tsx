@@ -18,7 +18,7 @@ interface Task {
   priority: 'low' | 'medium' | 'high';
 }
 
-// Gunakan tipe yang diimport dari AppNavigator
+
 type HomeScreenNavigationProp = StackNavigationProp<TasksStackParamList, 'HomeScreen'>;
 
 
