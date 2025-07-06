@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "KiraMind",
+    "slug": "KiraMind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_fix.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon_fix.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_fix.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.omega_research_center.KiraMind"
+    },
+    "web": {
+      "favicon": "./assets/icon_fix.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e449de8-edd5-422f-942a-c45014826cd6"
+      }
+    }
+  }
+}
