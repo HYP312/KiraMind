@@ -3,13 +3,13 @@ import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 
-// Define the navigation type to help TypeScript understand our navigation structure
+
 type NavigationProp = {
   navigate: (routeName: string) => void;
 };
 
 const BottomNav: React.FC = () => {
-  // Use the useNavigation hook with explicit typing
+ 
   const navigation = useNavigation<NavigationProp>();
   const [selectedTab, setSelectedTab] = React.useState('Home');
 
