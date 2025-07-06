@@ -1,4 +1,3 @@
-// Updated AccountScreen with Change Name and Change Password Subpages
 
 import * as React from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
