@@ -18,7 +18,7 @@ export async function scheduleTaskNotification(
   body: string,
   timestamp: number
 ) {
-  // Pastikan channel sudah dibuat
+  
   await createChannel();
 
   await notifee.createTriggerNotification(
