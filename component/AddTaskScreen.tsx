@@ -5,9 +5,9 @@ import {
 } from 'react-native';
 import { useNavigation, useRoute, RouteProp } from '@react-navigation/native';
 import DateTimePicker from '@react-native-community/datetimepicker';
-import { scheduleTaskNotification } from './Notifications'; // helper Notifee functions
+import { scheduleTaskNotification } from './Notifications'; 
 
-// @ts-ignore
+
 import { Picker } from '@react-native-picker/picker';
 
 type TaskPriority = 'low' | 'medium' | 'high';
