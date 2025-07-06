@@ -25,11 +25,7 @@ type HomeScreenNavigationProp = StackNavigationProp<TasksStackParamList, 'HomeSc
 const HomeScreen: React.FC = () => {
   const navigation = useNavigation<HomeScreenNavigationProp>();
   const { name } = usePoints();
-  const [tasks, setTasks] = React.useState<Task[]>([
-    { id: '1', title: 'Mancing', description: 'Pokok mancing sek', completed: true, createdAt: new Date(), updatedAt: new Date(), priority: 'medium' },
-    { id: '2', title: 'Dahar', description: 'Dahar ati', completed: true, createdAt: new Date(), updatedAt: new Date(), priority: 'high' },
-    { id: '3', title: 'Login BS', description: 'Wayahe Pembantaian', completed: true, createdAt: new Date(), updatedAt: new Date(), priority: 'low' },
-  ]);
+  const [tasks, setTasks] = React.useState<Task[]>([]);
 
 const handleTaskPress = (task: Task) => {
 navigation.navigate('TaskDetails', {
